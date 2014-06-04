@@ -1,6 +1,7 @@
 # slush-react
 
-A slush generator to scaffold React apps with Fluxxor
+A slush generator to scaffold React apps with Fluxxor.
+
 Generate a basic todo list example with fluxxor + react.
 
 

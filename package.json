@@ -1,7 +1,7 @@
 {
     "name": "slush-react",
     "description": "A slush generator to scaffold React apps with Fluxxor",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/mmai/slush-react",
     "author": {
         "name": "Henri Bourcereau",
@@ -40,5 +40,7 @@
     },
     "keywords": [
         "slushgenerator"
+        ,"react"
+        ,"fluxxor"
     ]
 }
