@@ -1,6 +1,7 @@
-# slush-react [![Build Status](https://secure.travis-ci.org/mmai/slush-react.png?branch=master)](https://travis-ci.org/mmai/slush-react) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-react.png)](http://badges.enytc.com/for/npm/slush-react) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmai/slush-react/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# slush-react
 
-> A slush generator to scaffold React apps with Fluxxor
+A slush generator to scaffold React apps with Fluxxor
+Generate a basic todo list example with fluxxor + react.
 
 
 ## Getting Started
