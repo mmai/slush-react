@@ -29,6 +29,13 @@ Run the generator from within the new folder:
 $ cd my-slush-react && slush react
 ```
 
+Compile and launch the example application:
+
+```bash
+gulp compile
+gulp
+```
+
 ## Getting To Know Slush
 
 Slush is a tool that uses Gulp for project scaffolding.

@@ -1,46 +1,52 @@
 {
-    "name": "slush-react",
-    "description": "A slush generator to scaffold React apps with Fluxxor",
-    "version": "0.1.2",
-    "homepage": "https://github.com/mmai/slush-react",
-    "author": {
-        "name": "Henri Bourcereau",
-        "email": "henri@bourcereau.fr"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/mmai/slush-react.git"
-    },
-    "bugs": {
-        "url": "https://github.com/mmai/slush-react/issues"
-    },
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://github.com/mmai/slush-react/blob/master/LICENSE"
-    }],
-    "main": "slushfile.js",
-    "engines": {
-        "node": ">= 0.10.26",
-        "npm": ">=1.4.3"
-    },
-    "scripts": {
-        "test": "echo \"No tests\""
-    },
-    "dependencies": {
-        "gulp": "^3.6.2",
-        "gulp-template": "^0.1.1",
-        "gulp-install": "^0.1.4",
-        "gulp-conflict": "^0.1.1",
-        "gulp-rename": "^1.2.0",
-        "underscore.string": "^2.3.3",
-        "inquirer": "^0.4.1"
-    },
-    "peerDependencies": {
-        "slush": ">=1.0.0"
-    },
-    "keywords": [
-        "slushgenerator"
-        ,"react"
-        ,"fluxxor"
-    ]
+  "name": "slush-react",
+  "description": "A slush generator to scaffold React apps with Fluxxor",
+  "version": "0.2.0",
+  "homepage": "https://github.com/mmai/slush-react",
+  "author": {
+    "name": "Henri Bourcereau",
+    "email": "henri@bourcereau.fr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmai/slush-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmai/slush-react/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mmai/slush-react/blob/master/LICENSE"
+    }
+  ],
+  "main": "slushfile.js",
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "gulp": "^3.6.2",
+    "gulp-template": "^0.1.1",
+    "gulp-install": "^0.1.4",
+    "gulp-conflict": "^0.1.1",
+    "gulp-rename": "^1.2.0",
+    "underscore.string": "^2.3.3",
+    "inquirer": "^0.4.1"
+  },
+  "peerDependencies": {
+    "slush": ">=1.0.0"
+  },
+  "keywords": [
+    "slushgenerator",
+    "react",
+    "fluxxor"
+  ],
+  "readme": "# slush-react\n\nA slush generator to scaffold React apps with Fluxxor.\n\nGenerate a basic todo list example with fluxxor + react.\n\n\n## Getting Started\n\n### Installation\n\nInstall `slush-react` globally:\n\n```bash\n$ npm install -g slush-react\n```\n\n### Usage\n\nCreate a new folder for your project:\n\n```bash\n$ mkdir my-slush-react\n```\n\nRun the generator from within the new folder:\n\n```bash\n$ cd my-slush-react && slush react\n```\n\n## Getting To Know Slush\n\nSlush is a tool that uses Gulp for project scaffolding.\n\nSlush does not contain anything \"out of the box\", except the ability to locate installed slush generators and to run them with liftoff.\n\nTo find out more about Slush, check out the [documentation](https://github.com/klei/slush).\n\n## Contributing\n\nSee the [CONTRIBUTING Guidelines](https://github.com/mmai/slush-react/blob/master/CONTRIBUTING.md)\n\n## Support\nIf you have any problem or suggestion please open an issue [here](https://github.com/mmai/slush-react/issues).\n\n## License \n\nThe MIT License\n\nCopyright (c) 2014, Henri Bourcereau\n\nPermission is hereby granted, free of charge, to any person\nobtaining a copy of this software and associated documentation\nfiles (the \"Software\"), to deal in the Software without\nrestriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following\nconditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\n",
+  "readmeFilename": "README.md",
+  "_id": "slush-react@0.1.1",
+  "_from": "slush-react@"
 }

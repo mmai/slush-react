@@ -8,9 +8,10 @@ You will need to have [node][node] and [gulp][gulp] setup on your machine.
 
 ## Getting started
 
-To package all source files and run on a local server simply run the following command:
+To package all source files and run on a local server simply run the following commands:
 
 ```sh
+$ gulp compile
 $ gulp
 ```
 

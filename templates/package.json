@@ -2,6 +2,11 @@
   "name": "<%= appName %>",
   "version": "0.0.1",
   "description": "<%= appDescription %>",
+  "dependencies": {
+    "fluxxor": "~1.2.1",
+    "envify": "~1.2.1",
+    "react": "~0.10.0"
+  },
   "devDependencies": {
     "gulp": "^3.5.2",
     "gulp-jshint": "^1.5.0",
@@ -12,6 +17,8 @@
     "gulp-imagemin": "^0.1.5",
     "vinyl-source-stream": "^0.1.1",
     "gulp-streamify": "0.0.4",
-    "browserify": "^3.32.1"
+    "browserify": "^3.32.1",
+    "reactify": "~0.13.1",
+    "watchify": "~0.10.2"
   }
 }
