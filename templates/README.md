@@ -1,6 +1,6 @@
-# <%= name %>
+# <%= appName %>
 
-<%= description %>
+<%= appDescription %>
 
 ## Pre-requesits
 
